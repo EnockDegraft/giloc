@@ -100,7 +100,7 @@ const programDirectors: TeamMember[] = [
   },
   {
     name: "Enock De-Graft Sarpong",
-    role: "Technology Program Director",
+    role: "Lead Technology Program Director",
     imageUrl: "https://i.postimg.cc/XN8HqQXt/IMG-4552.jpg",
     socialLinks: [
       { type: "linkedin", url: "#" },
@@ -230,7 +230,7 @@ export default function TeamPage() {
             <div className="space-y-12">
               {/* Leadership */}
               <div>
-                <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl mb-8 text-center">Leadership</h2>
+                <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl mb-8 text-center">Meet Our Leaders</h2>
                 <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                   {leadershipTeam.map((member, index) => (
                     <TeamMemberCard key={index} member={member} onImageClick={openImagePreview} size="large" />
