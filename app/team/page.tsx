@@ -27,7 +27,7 @@ const leadershipTeam: TeamMember[] = [
   {
     name: "Edward Destiny Kojo Mensah",
     role: "Founder & Executive Director",
-    imageUrl: "https://i.postimg.cc/0j3Z27YZ/Edward.jpg",
+    imageUrl: "https://i.postimg.cc/j2b3JTXK/edward.jpg",
     bio: "Edward founded GILOC with a vision to transform Africa through integrity and leadership. With over 10 years of experience in youth development, he leads the organization's strategic direction.",
     socialLinks: [
       { type: "twitter", url: "https://twitter.com" },
@@ -58,14 +58,14 @@ const leadershipTeam: TeamMember[] = [
     ],
   },
   {
-    name: "Deborah Febiri Damoah",
+    name: "Stephen Mawuli Apreku",
     role: "Communications Director",
-    imageUrl: "https://i.postimg.cc/8C5rbx9v/Deborah-Fabri-Damoah.jpg",
-    bio: "Deborah leads the development and implementation of GILOC's projects. Her expertise in youth development and education has shaped our impactful initiatives.",
+    imageUrl: "https://i.postimg.cc/Vkq6jW1V/mawuli.jpg",
+    bio: "Mr. Stephen Apreku leads the development and implementation of GILOC's projects. His expertise in his communication skills and youth development has shaped our impactful initiatives.",
     socialLinks: [
       { type: "twitter", url: "#" },
       { type: "linkedin", url: "#" },
-      { type: "email", url: "mailto:samuel@giloc.com" },
+      { type: "email", url: "mailto:mauliking@giloc.com" },
     ],
   },
 ]
@@ -110,21 +110,6 @@ const programDirectors: TeamMember[] = [
 ]
 
 const staffMembers: TeamMember[] = [
-  {
-    name: "Stephen Apreku King",
-    role: "Digital Marketer",
-    imageUrl: "",
-  },
-  {
-    name: "Wiafe Nana Felix",
-    role: "Public Relation Officer",
-    imageUrl: "https://i.postimg.cc/ydnJSNGC/Whats-App-Image-2025-05-09-at-10-01-14-60fa1660.jpg",
-  },
-  {
-    name: "Bukari Esther",
-    role: "Deputy Project Organizer",
-    imageUrl: "https://i.postimg.cc/fTf9SY2F/Bukari-Esther.jpg",
-  },
   {
     name: "Edna Taylor",
     role: "Community Outreach 1st Deputy Director",

@@ -86,7 +86,7 @@ export default function Home() {
                   alt="GILOC - Empowering African Youth"
                   className="rounded-lg object-cover border shadow-lg"
                   height="400"
-                  src="https://i.postimg.cc/9fHX0Wnm/image.png"
+                  src="https://i.postimg.cc/nV3qmZT9/flier1.jpg"
                   style={{
                     aspectRatio: "600/400",
                     objectFit: "cover",
