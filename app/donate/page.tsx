@@ -26,18 +26,18 @@ export default function DonatePage() {
   const [mobileNetwork, setMobileNetwork] = useState("")
   const [formError, setFormError] = useState("")
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
     setFormError("")
 
     try {
       // Get the donor's name from the form
-      const formData = new FormData(e.target)
+      const formData = new FormData(e.target as HTMLFormElement)
       const firstName = formData.get("first-name") || ""
       const lastName = formData.get("last-name") || ""
       setDonorName(`${firstName} ${lastName}`.trim())
-      setMobileNetwork(formData.get("network") || "")
+      setMobileNetwork(formData.get("network") as string || "")
 
       // Add payment method to form data
       formData.append("payment-method", paymentMethod)

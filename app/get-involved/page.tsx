@@ -18,13 +18,13 @@ export default function GetInvolvedPage() {
   const [activeCard, setActiveCard] = useState(null)
   const [formError, setFormError] = useState("")
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
     setFormError("")
 
     try {
-      const formData = new FormData(e.target)
+      const formData = new FormData(e.target as HTMLFormElement)
       console.log("Submitting get involved form...")
 
       const result = await submitGetInvolvedForm(formData)

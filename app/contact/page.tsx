@@ -17,13 +17,13 @@ export default function ContactPage() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [formError, setFormError] = useState("")
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
     setFormError("")
 
     try {
-      const formData = new FormData(e.target)
+      const formData = new FormData(e.target as HTMLFormElement)
       console.log("Submitting contact form...")
 
       const result = await submitContactForm(formData)

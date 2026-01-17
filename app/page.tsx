@@ -16,7 +16,7 @@ export default function Home() {
   const [email, setEmail] = useState("")
   const [formError, setFormError] = useState("")
 
-  const handleSubscribe = async (e) => {
+  const handleSubscribe = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
     setFormError("")
@@ -220,7 +220,7 @@ export default function Home() {
                       placeholder="Enter your email"
                       type="email"
                       value={email}
-                      onChange={(e) => setEmail(e.target.value)}
+                      onChange={(e: React.ChangeEvent<HTMLInputElement>) => setEmail(e.target.value)}
                       required
                     />
                     <Button type="submit" className="h-10 bg-amber-600 hover:bg-amber-700" disabled={isSubmitting}>
